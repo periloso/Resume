@@ -1,3 +1,8 @@
+---
+layout: post
+title: Customizations
+---
+
 ##Customizations
 To get my blog to its current form, I made a few modifications to the base poole layout.
 
