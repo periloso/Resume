@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: css github jekyll markdown grunt
+excerpt: test.
 ---
 
 This is a test post which will contain enough markup to test CSS styles.
