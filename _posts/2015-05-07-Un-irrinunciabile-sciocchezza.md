@@ -3,6 +3,7 @@ layout: post
 title: Un'irrinunciabile sciocchezza
 ---
 
+
 ... e fu così che s'incontrarono in un giorno di marzo, proprio quando questi volgeva verso la sua fine.
 Lui era lì ad attenderla, in apparenza seduto comodamente ad un bar, in attesa che arrivasse il caffè che aveva ordinato e che lo avrebbe reso ancor più nervoso in quella giornata ventosa.
 Lei era in ritardo, e questo non faceva che aumentare ulteriormente le aspettative del ragazzo, e lo rendeva ancor più trepidante di quanto non fosse stato prima.
