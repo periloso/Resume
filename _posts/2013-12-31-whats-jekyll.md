@@ -1,6 +1,22 @@
 ---
 layout: post
-title: What's jekyll?
+tags: css github jekyll markdown grunt
 ---
 
-You can view the folder structure on GitHub. When you run Jekyll, it creates a folder called _site with the static website inside of it. Every file or folder in the repo will get copied into the _site folder unless it begins with an underscore. Markdown files will get automatically converted to HTML and poole uses the Liquid templating system to allow for somewhat dynamic content on the website.
+This is a test post which will contain enough markup to test CSS styles.
+
+It should have a
+- list
+- [link](http://attebury.me)
+- blockquote
+
+> This is my blockquote.
+
+This is an ordered list:
+
+1. One
+2. Two
+3. Three
+
+## Gitception
+Let's put a Gist of this file here.

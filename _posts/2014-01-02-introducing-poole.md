@@ -1,10 +1,19 @@
 ---
 layout: post
-title: Customizations
+tags: css github jekyll markdown grunt
 ---
 
-##Customizations
-To get my blog to its current form, I made a few modifications to the base poole layout.
+This is a test post which will contain enough markup to test CSS styles.
 
-FIrst, I wanted to create an Archive page which listed all of my blog posts. To do this, I created the file archive.md which shows a dynamic list of all of my blog posts:
+It should have a
+- list
+- [link](http://attebury.me)
+- blockquote
 
+> This is my blockquote.
+
+This is an ordered list:
+
+1. One
+2. Two
+3. Three

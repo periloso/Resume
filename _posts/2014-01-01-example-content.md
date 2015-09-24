@@ -1,8 +1,19 @@
 ---
 layout: post
-title: Example of index.html
+tags: css github jekyll markdown grunt
 ---
 
-index.html contains the front page of the blog and about.md is a static post in markdown format. If you want to have more static files, you can just add them to the repo and poole will copy them to the _site folder when rendering the website.
+This is a test post which will contain enough markup to test CSS styles.
 
-_config contains general configuration stuff for the website:
+It should have a
+- list
+- [link](http://attebury.me)
+- blockquote
+
+> This is my blockquote.
+
+This is an ordered list:
+
+1. One
+2. Two
+3. Three
