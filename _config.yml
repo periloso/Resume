@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Alessio Periloso's Resume
-tagline:             TAGLINE
+tagline:             Insert here your tagline if you need it.
 url:                 http://periloso.github.io/Resume
 #paginate:            1
 baseurl:             "http://periloso.github.io/Resume"
@@ -28,4 +28,3 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/periloso/Resume
-  
