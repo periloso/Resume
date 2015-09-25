@@ -28,3 +28,13 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/periloso/Resume
+
+# Collections
+collections:
+#   - personal_information
+#   - current_positions
+  - previous_employments
+#   - languages
+#   - accomplishments
+#   - education
+#   - other_information

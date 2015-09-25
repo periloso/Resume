@@ -1,5 +1,12 @@
 <div class='section'>
   <h2>previous employments</h2>
+
+  {% for job in site.previous_employments %}
+    <h5>{{ job.dates }}</h5>
+    <p>{{ job.employer_name }}</p>
+  {% endfor %}
+
+  <h2>DATA</h2>
   {% for job in site.data.previous_employments %}
     <div class='group'>
       <table>
