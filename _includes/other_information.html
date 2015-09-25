@@ -1,13 +1,12 @@
 <div class='section otherinfo'><h2>other information</h2>
   <div class='group'>
     <table>
-      <tr>
-        <td>Driving license</td>
-        <td>European driving license B</td>
-      </tr><tr>
-        <td>Privacy</td>
-        <td id='otherinfo'>The usage of this information is allowed only for job related purposes.</td>
-      </tr>
+      <% for information in site.data.other_information %>
+        <tr>
+          <td>{{ information.title }}</td>
+          <td>{{ information.content }}</td>
+        </tr>
+      <% endfor %>
     </table>
   </div>
   <div class='lastgroup'>
