@@ -16,81 +16,48 @@ title: Home
       <table>
         <tr>
           <td>First name / surname</td>
-          <td if="fn">{{site.data.personaldata.name_surname}}</td>
+          <td if="fn">{{site.data.personal_data.name_surname}}</td>
         </tr>
         <tr>
           <td>Gender</td>
-          <td if="fn">{{site.data.personaldata.gender}}</td>
+          <td if="fn">{{site.data.personal_data.gender}}</td>
         </tr>
         <tr>
           <td>Address</td>
-          <td if="fn">{{site.data.personaldata.address}}</td>
+          <td if="fn">{{site.data.personal_data.address}}</td>
         </tr>
         <tr>
           <td>Telephone</td>
-          <td if="fn">{{site.data.personaldata.telephone}}</td>
+          <td if="fn">{{site.data.personal_data.telephone}}</td>
         </tr>
         <tr>
           <td>E-Mail</td>
-          <td if="fn">{{site.data.personaldata.email}}</td>
+          <td if="fn">{{site.data.personal_data.email}}</td>
         </tr>
         <tr>
           <td>Website</td>
-          <td if="fn">{{site.data.personaldata.website}}</td>
+          <td if="fn">{{site.data.personal_data.website}}</td>
         </tr>
         <tr>
           <td>Date and place of birth</td>
-          <td if="fn">{{site.data.personaldata.date_place_birth}}</td>
+          <td if="fn">{{site.data.personal_data.date_place_birth}}</td>
         </tr>
         <tr>
           <td>Nationality</td>
-          <td if="fn">{{site.data.personaldata.nationality}}</td>
+          <td if="fn">{{site.data.personal_data.nationality}}</td>
         </tr>
       </table>
     </div>
-    <!--<div class='group firstgroup'>
-      <table>
-        <tr>
-          <td>First name / surname</td>
-          <td id='fn'>Alessio Periloso</td>
-        </tr><tr>
-          <td>Gender</td>
-          <td>Male</td>
-        </tr><tr>
-          <td>Address</td>
-          <td id='adr'>Via Ripuaria 48/28 int. 68, 80014, Giugliano in Campania, Napoli, Italy</td>
-        </tr><tr>
-          <td>Telephone</td>
-          <td id='tel'>+39 338 9 777 221</td>
-        </tr><tr>
-          <td>E-Mail</td>
-          <td id='email'>xltw@bqduxaea.com</td>
-        </tr><tr>
-          <td>Website</td>
-          <td id='url'><a href='http://www.periloso.com'>http://www.periloso.com</a></td>
-        </tr>
-        <tr>
-          <td>Date and place of birth</td>
-          <td>26/05/1985 - Napoli, Italy</td>
-        </tr>          </table>
-    </div>-->
   </div>
 
   <div class='section'><h2>current positions</h2>
     <div class='group'>
       <table>
-        <tr>
-          <td></td><td>Developer and system integrator on behalf of <a class='reference' title='ServerMade.com by Akron Business Technologies Srl' href='http://servermade.com'>ServerMade.com by Akron Business Technologies Srl</a>.</td>
-        </tr>
-        <tr>
-          <td></td><td>System administrator on behalf of <a class='reference' title='CIRN - II Policlinico di Napoli' href='http://cirn-na.com'>CIRN - II Policlinico di Napoli</a>.</td>
-        </tr>
-        <!--<tr>
-          <td></td><td>Developer and system administrator on behalf of <a class='reference' title='MediCard.it by D.D.S. Network Srls' href='http://www.medicard.it'>Medicard.it</a></td>
-        </tr>-->
-        <tr>
-          <td></td><td>Developer and security consultant on behalf of <a class='reference' title='Akron Business Technologies Srl' href='http://www.akronbt.it'>Akron Business Srl</a>.</td>
-        </tr>
+        <% for position in site.data.current_positions %>
+          <tr>
+            <td></td><td>{{ position }}</td>
+          </tr>
+        <% endfor %>
       </table>
     </div>
   </div>

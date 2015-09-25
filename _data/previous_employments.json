@@ -1,0 +1,16 @@
+[
+  {
+    "dates": "March 2014 - Today",
+    "employer_name": "Akron Business Technologies Srl - Via Guantai Nuovi 11, 80133, Napoli, Italy",
+    "activity_field": "Marketing services, web developing",
+    "employment_type": "System integrator",
+    "main_subjects": "Development of backend, frontend and programmer APIs for a clustered (cloud) hosting and VPS management service, with PHP-fpm and Apache configuration files automatically generated (uploaded by PHP through SSH). The development includes integration between the administration panel available to customers, the administration panel used by the company's system engineers, the control panel used by resellers, a shopping cart, the main website and the daemons used to grant the service (PHP-fpm, Apache, MySQL, MongoDB, ProFTPD, PowerDNS and OpenSSHd), most of which are managed through a MySQL database. All the control panels have been developed in-house."
+  },
+  {
+    "dates": "October 2013 - May 2014",
+    "employer_name": "SDN S.p.A. - Via Gianturco 113, 80100, Napoli, Italy",
+    "activity_field": "Medical diagnostics, Nuclear medicine, Radiology, Blood testing",
+    "employment_type": "Security Specialist",
+    "main_subjects": "Application Penetration Test with SQL-injection, path traversal, source code or database exposure, denial of service and authorization bypass tests; in-depth analysis with Microsoft ASP.NET decompilers."
+  }
+]
