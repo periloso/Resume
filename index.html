@@ -53,11 +53,11 @@ title: Home
   <div class='section'><h2>current positions</h2>
     <div class='group'>
       <table>
-        <% for position in site.data.current_positions %>
+        {% for position in site.data.current_positions %}
           <tr>
             <td></td><td>{{ position }}</td>
           </tr>
-        <% endfor %>
+        {% endfor %}
       </table>
     </div>
   </div>
