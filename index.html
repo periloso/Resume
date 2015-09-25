@@ -12,7 +12,15 @@ title: Home
     </div>
     <h1>Alessio Periloso</h1>
     <h2>personal information</h2>
-    <div class='group firstgroup'>
+    <div class="group firstgroup">
+      <table>
+        <tr>
+          <td>First name / surname</td>
+          <td if="fn">{{site.data.name_surname}}</td>
+        </tr>
+      </table>
+    </div>
+    <!--<div class='group firstgroup'>
       <table>
         <tr>
           <td>First name / surname</td>
@@ -33,15 +41,11 @@ title: Home
           <td>Website</td>
           <td id='url'><a href='http://www.periloso.com'>http://www.periloso.com</a></td>
         </tr>
-        <!--<tr>
-          <td>Nationality</td>
-          <td>Italian</td>
-        </tr>-->
         <tr>
           <td>Date and place of birth</td>
           <td>26/05/1985 - Napoli, Italy</td>
         </tr>          </table>
-    </div>
+    </div>-->
   </div>
 
   <div class='section'><h2>current positions</h2>
