@@ -3,6 +3,9 @@
     <table>
       <tr>
         <td>
+          Languages
+        </td>
+        <td>
           <table class='languages'>
             <tr>
               <td>Language</td>
@@ -16,16 +19,17 @@
               <td>Spoken interaction</td>
               <td>Spoken production</td>
               <td>Writing production</td>
-            </tr><tr>
-              {% for language in site.data.languages %}
+            </tr>
+            {% for language in site.data.languages %}
+              <tr>
                 <td>{{ language.language }}</td>
                 <td>{{ language.understanding_listening }}</td>
                 <td>{{ language.understanding_reading }}</td>
                 <td>{{ language.spoken_interaction }}</td>
                 <td>{{ language.spoken_production }}</td>
                 <td>{{ language.writing_production }}</td>
-              {% endfor %}
-            </tr>
+              </tr>
+            {% endfor %}
           </table>
         </td>
       </tr>
