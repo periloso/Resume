@@ -1,12 +1,12 @@
 <div class='section otherinfo'><h2>other information</h2>
   <div class='group'>
     <table>
-      <% for information in site.data.other_information %>
+      {% for information in site.data.other_information %}
         <tr>
           <td>{{ information.title }}</td>
           <td>{{ information.content }}</td>
         </tr>
-      <% endfor %>
+      {% endfor %}
     </table>
   </div>
   <div class='lastgroup'>
