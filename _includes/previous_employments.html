@@ -1,0 +1,25 @@
+<div class='section'>
+  <h2>previous employments</h2>
+  {% for job in site.data.previous_employments %}
+    <div class='group'>
+      <table>
+        <tr>
+          <td>Dates</td>
+          <td>{{ job.dates }}</td>
+        </tr><tr>
+          <td>Employer's name and address</td>
+          <td>{{ job.employer_name }}</td>
+        </tr><tr>
+          <td>Field of activity</td>
+          <td>{{ job.activity_field }}</td>
+        </tr><tr>
+          <td>Type of employment</td>
+          <td>{{ job.job_type }}</td>
+        </tr><tr>
+          <td>Main subjects/occupational skills covered</td>
+          <td>{{ job.main_subjects }}</td>
+        </tr>
+      </table>
+    </div>
+  {% endfor %}
+</div>
