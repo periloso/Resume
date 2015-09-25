@@ -1,7 +1,7 @@
 <div class='section'><h2>education and training</h2>
   <div class='group'>
     <table>
-      <% for education in site.data.education %>
+      {% for education in site.data.education %}
         <tr>
           <td>Dates</td>
           <td>{{ education.dates }}</td>
@@ -12,6 +12,7 @@
           <td>Title of qualification awarded</td>
           <td>{{ education.qualification }}</td>
         </tr>
+      {% endfor %}
     </table>
   </div>
 </div>
