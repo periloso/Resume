@@ -31,5 +31,6 @@ github:
 
 # Collections
 collections:
-  - contents
+  - education
+  - languages
   - previous_employments
