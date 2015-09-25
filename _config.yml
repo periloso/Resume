@@ -31,9 +31,5 @@ github:
 
 # Collections
 collections:
-  - personal_information
-  - current_positions
   - previous_employments
-  - languages
-  - skills
-  - other_information
+  - contents
