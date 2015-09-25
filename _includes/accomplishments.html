@@ -20,7 +20,7 @@
               <td>Spoken production</td>
               <td>Writing production</td>
             </tr>
-            {% for language in site.data.languages %}
+            {% for language in site.contents.languages %}
               <tr>
                 <td>{{ language.language }}</td>
                 <td>{{ language.understanding_listening }}</td>
@@ -40,7 +40,7 @@
     <table>
       <tr>
         <td>Accomplishments &<br />organizational skills</td>
-        <td>{{ site.data.skills.accomplishments }}<td>
+        <td>{{ site.contents.skills.accomplishments }}<td>
       </tr>
     </table>
   </div>
@@ -49,7 +49,7 @@
     <table>
       <tr>
         <td>Relational skills</td>
-        <td>{{ site.data.skills.relational_skills }}</td>
+        <td>{{ site.contents.skills.relational_skills }}</td>
       </tr>
     </table>
   </div>
@@ -58,7 +58,7 @@
     <table>
       <tr>
         <td>Technical skills</td>
-        <td>{{ site.data.skills.technical_skills }}</td>
+        <td>{{ site.data.contents.technical_skills }}</td>
       </tr>
     </table>
   </div>
@@ -67,7 +67,7 @@
     <table>
       <tr>
         <td>Artistic skills</td>
-        <td>{{ site.data.skills.artistic_skills }}</td>
+        <td>{{ site.contents.skills.artistic_skills }}</td>
       </tr>
     </table>
   </div>-->
