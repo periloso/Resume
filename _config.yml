@@ -5,11 +5,11 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title:               Alessio Periloso's Resume
+tagline:             TAGLINE
+url:                 http://resume.periloso.com
+#paginate:            1
+baseurl:             "http://periloso.github.io/Resume"
 
 # Assets
 #
@@ -20,11 +20,11 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Alessio Periloso
+  url:               http://periloso.com/
+  email:             b1galez@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/periloso/Resume
