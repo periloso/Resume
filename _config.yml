@@ -8,8 +8,8 @@ relative_permalinks: true
 title:               Alessio Periloso's Resume
 tagline:             Insert here your tagline if you need it.
 url:                 http://periloso.github.io/Resume
-#paginate:            1
 baseurl:             "http://periloso.github.io/Resume"
+#paginate:            1
 
 # Assets
 #
