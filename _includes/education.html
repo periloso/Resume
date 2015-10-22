@@ -1,17 +1,19 @@
-<div class='section'><h2>education and training</h2>
+<div class='section'><h2>{{site.data[transfile].education_and_training}}</h2>
   <div class='group'>
     <table>
       {% for education in site.education %}
-        <tr>
-          <td>Dates</td>
-          <td>{{ education.dates }}</td>
-        </tr><tr>
-          <td>Name and type of organization providing education</td>
-          <td>{{ education.organization }}</td>
-        </tr><tr>
-          <td>Title of qualification awarded</td>
-          <td>{{ education.qualification }}</td>
-        </tr>
+        {% if education.lang == page.shortlang %}
+          <tr>
+            <td><b>{{site.data[transfile].Dates}}</b></td>
+            <td>{{ education.dates }}</td>
+          </tr><tr>
+            <td><b>{{site.data[transfile].Name_type_organization_providing_education}}</b></td>
+            <td>{{ education.organization }}</td>
+          </tr><tr>
+            <td><b>{{site.data[transfile].Title_awarded}}</b></td>
+            <td>{{ education.qualification }}</td>
+          </tr>
+        {% endif %}
       {% endfor %}
     </table>
   </div>

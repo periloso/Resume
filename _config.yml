@@ -1,36 +1,22 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+# Site settings
+title: Alessio Periloso Curricula Engine.
+email: b1galez@gmail.com
+description: "Curricula Engine allows you to easy deploy your resume!"
+baseurl: "/periloso/CurriculaEngine"
+url: "http://github.io/periloso/CurriculaEngine"
+paginate: 2
+paginate_path: "/blog/page:num"
 
-# Setup
-title:               Alessio Periloso's Resume
-tagline:             Insert here your tagline if you need it.
-url:                 http://periloso.github.io/Resume
-baseurl:             "http://periloso.github.io/Resume"
-#paginate:            1
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Alessio Periloso
-  url:               http://periloso.com/
-  email:             b1galez@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/periloso/Resume
+# Build settings
+markdown: kramdown
+permalink: pretty
 
 # Collections
 collections:
+  - current_positions
   - education
   - languages
+  - other_information
   - previous_employments
+  - skills
+  - photo

@@ -1,0 +1,114 @@
+Resume:
+  "Curriculum Vitae"
+
+# Personal information
+personal_information:
+  "informazioni personali"
+First_name_surname:
+  "Nome / Cognome"
+Gender:
+  "Sesso"
+Male:
+  "Maschile"
+Female:
+  "Femminile"
+Address:
+  "Indirizzo"
+Telephone:
+  "Telefono"
+Email:
+  "E-Mail"
+Website:
+  "Sito web"
+Date_and_place_of_birth:
+  "Data e luogo di nascita"
+Nationality:
+  "Nazionalità"
+
+# Nationalities
+Italian:
+  "Italiana"
+English:
+  "Inglese"
+French:
+  "Francese"
+German:
+  "Tedesca"
+Spanish:
+  "Spagnola"
+
+# Current positions
+current_positions:
+  "posizioni attuali"
+
+# Previous positions
+previous_employments:
+  "esperienza professionale"
+Dates:
+  "Date"
+Employer_name_and_address:
+  "Nome del datore di lavoro"
+Field_of_activity:
+  "Settore"
+Type_of_employment:
+  "Tipo di attività"
+Main_subjects:
+  "Principali attività e responsabilità"
+
+# Skills and competences
+accomplishments_skills_and_competences:
+  "traguardi raggiunti, capacità<br>e competenze"
+Accomplishments_and_organizational_skills:
+  "Accomplishments"
+Languages:
+  "Lingue"
+Language:
+  "Lingua"
+Understanding:
+  "Comprensione"
+Speaking:
+  "Parlato"
+Writing:
+  "Scritto"
+Listening:
+  "Ascolto"
+Reading:
+  "Lettura"
+Spoken_interaction:
+  "Interazione orale"
+Spoken_production:
+  "Produzione orale"
+Writing_production:
+  "Produzione scritta"
+Accomplishments_and_organizational_skills:
+  "Traguardi raggiunti e<br />competenze organizzative"
+Relational_skills:
+  "Competenze relazionali"
+Technical_skills:
+  "Competenze tecniche"
+Artistic_skills:
+  "Competenze artistiche"
+
+# Education
+education_and_training:
+  "istruzione e formazione"
+Date:
+  "Date"
+Name_type_organization_providing_education:
+  "Nome dell'organizzazione erogatrice della formazione"
+Title_awarded:
+  "Qualifica rilasciata"
+
+# Other info
+other_information:
+  "altre informazioni"
+Driving license:
+  "Patente"
+Privacy:
+  "Privacy"
+Usage_allowed_only_for_job_purposes:
+  "Il sottoscritto, con riferimento all'art. 13 del D. Lgs. 196/2003, autorizza il trattamento dei dati personali che lo riguardano acquisiti e la loro comunicazione a terzi per le sole finalità occupazionali."
+
+# References
+references:
+  "riferimenti"

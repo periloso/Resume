@@ -1,10 +1,12 @@
-<div class='section'><h2>current positions</h2>
+<div class='section'><h2>{{site.data[transfile].current_positions}}</h2>
   <div class='group'>
     <table>
-      {% for position in site.data.current_positions %}
-        <tr>
-          <td></td><td>{{ position }}</td>
-        </tr>
+      {% for position in site.current_positions reversed %}
+        {% if position.lang == page.shortlang %}
+          <tr>
+            <td></td><td>{{ position.position }}</td>
+          </tr>
+        {% endif %}
       {% endfor %}
     </table>
   </div>

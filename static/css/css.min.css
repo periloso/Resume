@@ -1,6 +1,6 @@
-@font-face {font-family: 'MyriadProCond';src: url(/Resume/static/fonts/MyriadPro-Cond.otf) format('opentype');}
-@font-face {font-family: 'MyriadProCondBold';src:url(/Resume/static/fonts/MyriadPro-BoldCond.otf) format('opentype');}
-@font-face {font-family: 'MyriadProCondIt';src: url(/Resume/static/fonts/MyriadPro-CondIt.otf) format('opentype');}
+@font-face {font-family: 'MyriadProCond';src: url(../fonts/MyriadPro-Cond.otf) format('opentype');}
+@font-face {font-family: 'MyriadProCondBold';src:url(../fonts/MyriadPro-BoldCond.otf) format('opentype');}
+@font-face {font-family: 'MyriadProCondIt';src: url(../fonts/MyriadPro-CondIt.otf) format('opentype');}
 @media all {
 body{max-width:1200px;min-width:500px;font-family:MyriadProCond, sans-serif;background-color:#eee;font-size:18px;margin:0 auto;}
 img{border:none;}
@@ -10,7 +10,7 @@ span{font-family:MyriadProCondIt, sans-serif;font-style:italic;}
 ul,li{list-style-type:none;margin:0;padding:0;}
 .container {-webkit-box-shadow: 0 1px 7px rgba(0,0,0,0.06),0 1px 40px rgba(0,0,0,0.15);-moz-box-shadow: 0 1px 7px rgba(0,0,0,0.06),0 1px 40px rgba(0,0,0,0.15);box-shadow: 0 1px 7px rgba(0,0,0,0.06),0 1px 40px rgba(0,0,0,0.15);margin: 0 4%;}
 .section .rightbar{float:right;text-align:center;clear:both;margin:0;}
-.sprite{background:url(/Resume/static/images/sprite.png) no-repeat top left;}
+.sprite{background:url(../images/sprite.png) no-repeat top left;}
 .spr_english{background-position:0 0;width:64px;height:64px;}
 .spr_italian{background-position:0 -114px;width:64px;height:64px;}
 .spr_vcfit{background-position:0 -378px;width:100px;height:100px;}

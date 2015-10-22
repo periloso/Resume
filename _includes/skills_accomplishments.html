@@ -1,0 +1,16 @@
+<div class='section'><h2>{{site.data[transfile].accomplishments_skills_and_competences}}</h2>
+  {% include languages.html %}
+
+  {% for skill in site.skills %}
+    {% if skill.lang == page.shortlang %}
+      <div class='group'>
+        <table>
+          <tr>
+            <td><b>{{ skill.title }}</b></td>
+            <td>{{ skill.description }}<td>
+          </tr>
+        </table>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

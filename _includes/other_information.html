@@ -1,18 +1,20 @@
-<div class='section otherinfo'><h2>other information</h2>
+<div class='section otherinfo'><h2>{{site.data[transfile].other_information}}</h2>
   <div class='group'>
     <table>
-      {% for information in site.data.other_information %}
-        <tr>
-          <td>{{ information.title }}</td>
-          <td>{{ information.content }}</td>
-        </tr>
+      {% for information in site.other_information %}
+        {% if information.lang == page.shortlang %}
+          <tr>
+            <td><b>{{ information.title }}</b></td>
+            <td>{{ information.description }}</td>
+          </tr>
+        {% endif %}
       {% endfor %}
     </table>
   </div>
   <div class='lastgroup'>
     <table class='references'>
       <tr>
-        <td>References</td>
+        <td>{{site.data[transfile].references}}</td>
         <td id='references'></td>
       </tr>
     </table>

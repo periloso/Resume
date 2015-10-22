@@ -1,0 +1,114 @@
+Resume:
+  "Resume"
+
+# Personal information
+personal_information:
+  "personal information"
+First_name_surname:
+  "First name / surname"
+Gender:
+  "Gender"
+Male:
+  "Male"
+Female:
+  "Female"
+Address:
+  "Address"
+Telephone:
+  "Telephone"
+Email:
+  "E-Mail"
+Website:
+  "Website"
+Date_and_place_of_birth:
+  "Date and place of birth"
+Nationality:
+  "Nationality"
+
+# Nationalities
+Italian:
+  "Italian"
+English:
+  "English"
+French:
+  "French"
+German:
+  "German"
+Spanish:
+  "Spanish"
+
+# Current positions
+current_positions:
+  "current positions"
+
+# Previous positions
+previous_employments:
+  "previous employments"
+Dates:
+  "Dates"
+Employer_name_and_address:
+  "Employer's name and address"
+Field_of_activity:
+  "Field of activity"
+Type_of_employment:
+  "Type of employment"
+Main_subjects:
+  "Main subjects/occupational skills covered"
+
+# Skills and competences
+accomplishments_skills_and_competences:
+  "accomplishments, skills and competences"
+Accomplishments_and_organizational_skills:
+  "Accomplishments"
+Languages:
+  "Languages"
+Language:
+  "Language"
+Understanding:
+  "Understanding"
+Speaking:
+  "Speaking"
+Writing:
+  "Writing"
+Listening:
+  "Listening"
+Reading:
+  "Reading"
+Spoken_interaction:
+  "Spoken interaction"
+Spoken_production:
+  "Spoken production"
+Writing_production:
+  "Writing production"
+Accomplishments_and_organizational_skills:
+  "Accomplishments &<br />organizational skills"
+Relational_skills:
+  "Relational skills"
+Technical_skills:
+  "Technical skills"
+Artistic_skills:
+  "Artistic skills"
+
+# Education
+education_and_training:
+  "education and training"
+dates:
+  "Dates"
+Name_type_organization_providing_education:
+  "Name and type of organization providing education"
+Title_awarded:
+  "Title of qualification awarded"
+
+# Other info
+other_information:
+  "other information"
+Driving_license:
+  "Driving license"
+Privacy:
+  "Privacy"
+Usage_allowed_only_for_job_purposes:
+  "The usage of this information is allowed only for job related purposes"
+
+# References
+references:
+  "references"

@@ -1,37 +1,37 @@
-<h2>personal information</h2>
+<h2>{{site.data[transfile].personal_information}}</h2>
 <div class="group firstgroup">
   <table>
     <tr>
-      <td>First name / surname</td>
+      <td>{{ site.data[transfile].First_name_surname }}</td>
       <td id="fn">{{ site.data.personal_information.name_surname }}</td>
     </tr>
     <tr>
-      <td>Gender</td>
-      <td>{{ site.data.personal_information.gender }}</td>
+      <td>{{ site.data[transfile].Gender }}</td>
+      <td>{{ site.data[transfile][site.data.personal_information.gender] }}</td>
     </tr>
     <tr>
-      <td>Address</td>
+      <td>{{ site.data[transfile].Address }}</td>
       <td id="adr">{{ site.data.personal_information.address }}</td>
     </tr>
     <tr>
-      <td>Telephone</td>
+      <td>{{ site.data[transfile].Telephone }}</td>
       <td id="tel">{{ site.data.personal_information.telephone }}</td>
     </tr>
     <tr>
-      <td>E-Mail</td>
+      <td>{{ site.data[transfile].EMail }}</td>
       <td id="email">{{ site.data.personal_information.email }}</td>
     </tr>
     <tr>
-      <td>Website</td>
+      <td>{{ site.data[transfile].Website }}</td>
       <td id="url">{{ site.data.personal_information.website }}</td>
     </tr>
     <tr>
-      <td>Date and place of birth</td>
+      <td>{{ site.data[transfile].Date_and_place_of_birth }}</td>
       <td>{{ site.data.personal_information.date_place_birth }}</td>
     </tr>
     <tr>
-      <td>Nationality</td>
-      <td>{{ site.data.personal_information.nationality }}</td>
+      <td>{{ site.data[transfile].Nationality }}</td>
+      <td>{{ site.data[transfile][site.data.personal_information.nationality] }}</td>
     </tr>
   </table>
 </div>

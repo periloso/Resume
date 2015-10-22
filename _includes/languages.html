@@ -1,0 +1,37 @@
+<div class='group'>
+  <table>
+    <tr>
+      <td><b>{{site.data[transfile].Languages}}</b></td>
+      <td>
+        <table class='languages'>
+          <tr>
+            <td style="border: 0;"></td>
+            <td colspan='2'><b>{{site.data[transfile].Understanding}}</b></td>
+            <td colspan='2'><b>{{site.data[transfile].Speaking}}</b></td>
+            <td><b>{{site.data[transfile].Writing}}</b></td>
+          </tr>
+          <tr>
+            <td style="border: 0"></td>
+            <td>{{site.data[transfile].Listening}}</td>
+            <td>{{site.data[transfile].Reading}}</td>
+            <td>{{site.data[transfile].Spoken_interaction}}</td>
+            <td>{{site.data[transfile].Spoken_production}}</td>
+            <td>{{site.data[transfile].Writing_production}}</td>
+          </tr>
+          {% for language in site.languages %}
+            {% if language.lang == page.shortlang %}
+              <tr>
+                <td style="border: 0;">{{ language.language }}</td>
+                <td>{{ language.understanding_listening }}</td>
+                <td>{{ language.understanding_reading }}</td>
+                <td>{{ language.spoken_interaction }}</td>
+                <td>{{ language.spoken_production }}</td>
+                <td>{{ language.writing_production }}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>

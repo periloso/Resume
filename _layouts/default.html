@@ -1,0 +1,29 @@
+{% capture transfile %}trans_{{ page.lang }}{% endcapture %}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="container">
+      <div class='section'>
+        <div class='rightbar'>
+          <div class='choose-language'>
+            <a href='{{ site.baseurl }}/en'><img src='{{ site.baseurl }}/static/images/transparent.png' class='sprite spr_english'/></a>
+            <a href='{{ site.baseurl }}/it'><img src='{{ site.baseurl }}/static/images/transparent.png' class='sprite spr_italian' /></a>
+          </div>
+          <div class='photo'><img src='{{ site.baseurl }}/photo/photo.png' /></div>
+          <div class='qrcode'><img src='{{ site.baseurl }}/static/images/transparent.png' class='sprite spr_vcfen'/></div>
+        </div>
+        <h1>{{ site.contents.personal_information.name_surname }}</h1>
+        {% include personal_information.html %}
+      </div>
+
+      {% include current_positions.html %}
+      {% include previous_employments.html %}
+      {% include skills_accomplishments.html %}
+      {% include education.html %}
+      {% include other_information.html %}
+    </div>
+  </body>
+</html>
