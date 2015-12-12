@@ -2,7 +2,8 @@
 title: Alessio Periloso Curricula Engine.
 email: b1galez@gmail.com
 description: "Curricula Engine allows you to easy deploy your resume!"
-baseurl: "/"
+#baseurl: "/Resume" # remove this for domain hosting
+baseurl: ""
 url: "http://resume.periloso.com"
 paginate: 2
 paginate_path: "/blog/page:num"
